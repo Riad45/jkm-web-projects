@@ -13,8 +13,8 @@ body {
 
 /* Common Style Start */
 
-section {
-    margin-bottom: 125px;
+section{
+    margin-bottom: 150px;
 }
 
 .btn-group {
@@ -45,6 +45,10 @@ section {
     line-height: 160%;
     /* 166.667% */
     margin-bottom: 30px;
+}
+
+.color-span{
+    color: #E55473;
 }
 
 
@@ -221,13 +225,14 @@ section {
 /* Subscription Section Start */
 .subscription-section{
     margin: 0 15%;
-
     padding: 5% 0;
 
     border-radius: 8px;
 background: url(https://img.freepik.com/premium-photo/top-view-flowers-leaves_23-2148202220.jpg?w=900) lightgray 0px -203.444px / 100% 213.755% no-repeat;
 
     text-align: center;
+
+    margin-bottom: 150px;
 }
 
 #email{
@@ -241,3 +246,30 @@ background: url(https://img.freepik.com/premium-photo/top-view-flowers-leaves_23
 }
 
 /* Subscription Section End */
+
+/* footer Section Start */
+footer{
+
+    background: #111010;
+    text-align: center;
+    padding: 8% 0% ;
+}
+
+.footer-title{
+    color: #FFF;
+
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+
+
+}
+
+
+
+/* Footer Section End */
