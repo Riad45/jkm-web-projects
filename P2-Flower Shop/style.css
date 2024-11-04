@@ -81,15 +81,15 @@ section {
 
 /* Header Section End */
 
+
+/* Featured Flower Section Start */
+
 .featured-section {
 
     padding: 0 15%;
     text-align: center;
 }
 
-/* .featured-content{
-
-} */
 
 .featured-section .title {
 
@@ -116,40 +116,69 @@ section {
     justify-content: space-around;
 }
 
-.flower-tree{
+.flower-tree {
 
     border-radius: 300px 300px 0px 0px;
 
     width: 80%;
     height: 90%;
-    
-
 
 }
 
 
-
 #img-1 {
-    
+
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 76px 9px 78px;
 }
 
 #img-2 {
-   
+
     background: rgba(5, 151, 160, 0.15);
-    padding: 117px 47px 51px ;
-    
+    padding: 117px 47px 51px;
+
 
 }
 
-#img-3{
-    
-background: rgba(71, 125, 17, 0.15);
- padding: 67px 75px 0px; 
-} 
+#img-3 {
+
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px;
+}
 
 
 
-/* Featured Flower Section Start */
+/* Featured Flower Section End */
 
+
+/* Service Section Start */
+
+.service-section {
+    margin: 0 15% 15% ;
+
+    padding: 85px 100px 130px ;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.service-section .img{
+    margin-bottom: 50px;
+}
+
+.service-section .h4{
+
+color: rgba(39, 39, 39, 0.80);
+font-size: 24px;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
+}
+
+
+/* Service Section End */
