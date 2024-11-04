@@ -1,21 +1,32 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Lato", sans-serif;
 }
 
 
 
+
 /* Common Style Start */
 
-section{
+section {
     margin-bottom: 125px;
 }
 
+.btn-group {
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 /* Common style end */
@@ -25,48 +36,120 @@ section{
 
 /* Header Section Start */
 
-.header-section{
+.header-section {
 
-    padding: 0px 240px ;
-    background-color: rgba(229, 84, 115, 0.10) ;
+    padding: 0px 15%;
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     gap: 100px;
     align-items: center;
 }
 
+.header-content {
 
-.header-content{
-
-   width: 100%;
-
-}
-
-.header-title{
-
- color: #272727;
-font-size: 70px;
-font-weight: 800;
-/* line-height: normal; */
-margin-bottom: 30px;
+    width: 100%;
 
 }
 
-.header-description{
+.header-title {
+
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.header-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 166.667% */ 
+    line-height: 160%;
+    /* 166.667% */
     margin-bottom: 30px;
 }
 
-
-
-.header-img{
+.header-img {
     margin-top: 50px;
-
     height: auto;
     width: 30vw;
 
 }
+
+/* Header Section End */
+
+.featured-section {
+
+    padding: 0 15%;
+    text-align: center;
+}
+
+/* .featured-content{
+
+} */
+
+.featured-section .title {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
+.featured-section .description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 50px;
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-tree{
+
+    border-radius: 300px 300px 0px 0px;
+
+    width: 80%;
+    height: 90%;
+    
+
+
+}
+
+
+
+#img-1 {
+    
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 76px 9px 78px;
+}
+
+#img-2 {
+   
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px ;
+    
+
+}
+
+#img-3{
+    
+background: rgba(71, 125, 17, 0.15);
+ padding: 67px 75px 0px; 
+} 
+
+
+
+/* Featured Flower Section Start */
+
