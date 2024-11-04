@@ -28,6 +28,16 @@ section {
     font-weight: 700;
 }
 
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 166.667% */
+    margin-bottom: 30px;
+}
+
 
 /* Common style end */
 
@@ -61,16 +71,6 @@ section {
 
 }
 
-.header-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-    /* 166.667% */
-    margin-bottom: 30px;
-}
 
 .header-img {
     margin-top: 50px;
@@ -100,15 +100,14 @@ section {
 
 }
 
-.featured-section .description {
+/* .featured-section .description {
 
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
     margin-bottom: 50px;
-}
+} */
 
 .img-container {
 
@@ -154,9 +153,9 @@ section {
 /* Service Section Start */
 
 .service-section {
-    margin: 0 15% 15% ;
+    margin: 0 15% 15%;
 
-    padding: 85px 100px 130px ;
+    padding: 85px 100px 130px;
 
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -168,17 +167,37 @@ section {
 
 
 
-.service-section .img{
+.service-section .img {
     margin-bottom: 50px;
 }
 
-.service-section .h4{
+.service-section .h4 {
 
-color: rgba(39, 39, 39, 0.80);
-font-size: 24px;
-font-weight: 600;
-line-height: 35px; /* 145.833% */
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
 }
 
 
 /* Service Section End */
+
+/* Hot Deals Section Start */
+
+.hot-deals-section {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+    padding:  5% 15%;
+    display: flex;
+
+
+}
+
+.hot-deals-content{
+    margin: auto 0px;
+}
+
+/* Hot Deals Section End */
