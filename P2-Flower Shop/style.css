@@ -28,6 +28,15 @@ section {
     font-weight: 700;
 }
 
+.cmn-title {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
 .description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -90,15 +99,6 @@ section {
     text-align: center;
 }
 
-
-.featured-section .title {
-
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 25px;
-
-}
 
 /* .featured-section .description {
 
@@ -201,3 +201,19 @@ section {
 }
 
 /* Hot Deals Section End */
+
+
+
+/* Instagram Section Start */
+ .instagram-section{
+    padding: 0 15%;
+    text-align: center;
+ }
+
+ .instagram-section .img-container > img{
+
+    width: 240px;
+    height: auto;
+
+ }
+/* Instagram Section End */
