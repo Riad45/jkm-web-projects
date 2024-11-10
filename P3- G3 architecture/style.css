@@ -67,9 +67,11 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 50px;
+    gap: 3.2rem;
+    list-style-type: none;
 
 }
+
 
 nav a {
 
@@ -88,7 +90,7 @@ nav a {
 
 .banner-title {
     color: var(--Dark-01, #131313);
-    font-size: 64px;
+    font-size: 3.5rem;
     font-weight: 700;
 
     margin-bottom: 3%;
@@ -101,4 +103,39 @@ nav a {
     padding: 3% 15% ;
     
 
+}
+
+
+
+/* Small Devices */
+
+@media screen and (max-width:576px){
+
+    nav{
+
+        flex-direction: column;
+        
+    }
+
+    nav ul{
+        margin-top: 3%;
+    }
+    
+}
+
+
+/* Medium Devices */
+
+@media screen and (min-width:576.01px)and (max-width:952px){
+    
+    nav{
+
+        flex-direction: column;
+        
+    }
+
+    nav ul{
+        margin-top: 3%;
+    }
+    
 }
